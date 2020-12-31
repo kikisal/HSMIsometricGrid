@@ -1,0 +1,21 @@
+html {
+	height: 100%;
+}
+body {
+	background-color: #000000;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+canvas {
+	display: block;
+	
+	box-sizing: border-box;
+		image-rendering: -moz-crisp-edges;
+	image-rendering: -webkit-crisp-edges;
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
+
+}
